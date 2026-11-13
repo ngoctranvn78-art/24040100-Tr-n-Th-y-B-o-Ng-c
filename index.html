@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Introduction</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #26352f;
+      --muted: #64756d;
+      --accent: #397b63;
+      --paper: #ffffff;
+      --background: #f1f6f2;
+      --line: #e3ebe5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 48px 20px;
+      display: grid;
+      place-items: center;
+      background: var(--background);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      width: min(100%, 680px);
+      padding: clamp(28px, 6vw, 52px);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 16px 48px rgba(38, 53, 47, .08);
+    }
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 32px;
+      font-size: clamp(2rem, 6vw, 2.7rem);
+      line-height: 1.15;
+    }
+    .details { margin: 0; }
+    .item {
+      padding: 20px 0;
+      border-top: 1px solid var(--line);
+    }
+    dt {
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    dd {
+      margin: 0;
+      font-size: 1.08rem;
+      line-height: 1.65;
+      overflow-wrap: anywhere;
+    }
+    @media (max-width: 480px) {
+      body { padding: 24px 14px; }
+      main { border-radius: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Introduction</p>
+    <h1>TRẦN THỤY BẢO NGỌC</h1>
+    <dl class="details">
+      <div class="item">
+        <dt>Major</dt>
+        <dd>QUAN HỆ CÔNG CHÚNG</dd>
+      </div>
+      <div class="item">
+        <dt>Skills</dt>
+        <dd>VIẾT BÀI CONTENT, EDIT VIDEO CƠ BẢN</dd>
+      </div>
+      <div class="item">
+        <dt>Career Goals</dt>
+        <dd>LÀM AGENCY CHUYÊN NGHIỆP</dd>
+      </div>
+    </dl>
+  </main>
+</body>
+</html>
